@@ -1,0 +1,48 @@
+{
+  // Default formatter to Prettier (if you're using Prettier)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+  // Enable format on save
+  "editor.formatOnSave": true,
+  
+  // TypeScript and JavaScript Formatting
+  "typescript.format.enable": true,
+  "javascript.format.enable": true,
+
+  // Enable auto-save (optional)
+  "files.autoSave": "onWindowChange",
+  
+  // Enable ESLint for linting (if using ESLint)
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  
+  // Specify Prettier settings (if using Prettier)
+  "prettier.requireConfig": true,  // Ensure Prettier only runs when there's a config file
+  
+  // Tailwind CSS support (if you're using Tailwind with Next.js)
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "typescriptreact": "javascript",
+    "javascriptreact": "javascript"
+  },
+  
+  // Enable type checking for JavaScript files (if needed)
+  "javascript.implicitProjectConfig.checkJs": true,
+  
+  // Auto import paths for Next.js
+  "typescript.autoImportSuggestions.enabled": true,
+  "javascript.autoImportSuggestions.enabled": true,
+
+  // Emmet support for JSX/TSX (useful with Next.js)
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // Enable/Disable TypeScript type checking in VS Code
+  "typescript.validate.enable": true,
+  
+  // Enable Next.js specific settings if needed
+  "nextjs.autoInstall": true, // Automatically installs necessary dependencies for Next.js
+}
