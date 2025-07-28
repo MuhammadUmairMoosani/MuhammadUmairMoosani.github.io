@@ -191,7 +191,7 @@ export const AboutMe = () => {
                   <span className="elementor-icon-list-text">
                     <a
 
-                      href="https://drive.google.com/uc?export=download&id=1bKLlh-qQg4WALHBljASagUROncS4Pe00"
+                      href="https://drive.google.com/uc?export=download&id=1C6ffTvn1J05AuXLT3s4DyRuVmwU4tuOx"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
