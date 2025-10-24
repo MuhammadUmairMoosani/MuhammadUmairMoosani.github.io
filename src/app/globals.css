@@ -109385,3 +109385,28 @@ video.wp-video-shortcode {
 .wp-audio-playlist .me-cannotplay span {
   padding: 5px 15px;
 }
+
+/* Custom Hero Section Responsive Styles */
+@media only screen and (max-width: 1024px) {
+  .elementor-element-52d5136 .e-con-inner {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .elementor-element-52d5136 .elementor-element-cff8374 {
+    order: 2;
+  }
+  
+  .elementor-element-52d5136 .elementor-element-2b17256 {
+    order: 1;
+    position: relative !important;
+    top: 0 !important;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .elementor-element-52d5136 .e-con-inner {
+    gap: 20px !important;
+  }
+}

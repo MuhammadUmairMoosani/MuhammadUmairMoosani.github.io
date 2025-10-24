@@ -42,11 +42,22 @@ export const Hello = () => {
         }}
       />
 
-      <div className="e-con-inner" style={{ position: "relative", zIndex: 1 }}>
+      <div
+        className="e-con-inner"
+        style={{
+          position: "relative",
+          zIndex: 1,
+          display: "flex",
+          alignItems: "flex-start",
+          gap: "60px",
+          justifyContent: "space-between",
+        }}
+      >
         <div
           className="elementor-element elementor-element-cff8374 e-con-full e-flex e-con e-child"
           data-id="cff8374"
           data-element_type="container"
+          style={{ flex: 1 }}
         >
           <div
             className="elementor-element elementor-element-0781194 e-con-full section-heading e-flex e-con e-child"
@@ -441,6 +452,16 @@ export const Hello = () => {
           data-id="2b17256"
           data-element_type="container"
           data-settings='{"background_background":"classic"}'
+          style={{
+            flex: "0 0 auto",
+            minWidth: "500px",
+            position: "sticky",
+            top: "20px",
+            alignSelf: "flex-start",
+            marginLeft: "auto",
+            paddingLeft: "60px",
+            paddingRight: "20px",
+          }}
         >
           <div
             className="elementor-element elementor-element-aacf331 hero-img at-image-animation at-animation-image-none at-none elementor-widget elementor-widget-image"
@@ -449,43 +470,141 @@ export const Hello = () => {
             data-settings='{"ekit_we_effect_on":"none"}'
             data-widget_type="image.default"
             style={{
-              maxWidth: "450px",
+              maxWidth: "100%",
               position: "relative",
+              display: "flex",
+              flexDirection: "column",
+              gap: "30px",
             }}
           >
-            {/* Glow effect behind image */}
+            <div style={{ position: "relative" }}>
+              {/* Glow effect behind image */}
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  width: "90%",
+                  height: "90%",
+                  background:
+                    "linear-gradient(135deg, rgba(111, 243, 181, 0.2) 0%, rgba(240, 255, 108, 0.2) 100%)",
+                  filter: "blur(40px)",
+                  borderRadius: "50%",
+                  zIndex: -1,
+                  animation: "pulse 3s ease-in-out infinite",
+                }}
+              />
+              <Image
+                loading="lazy"
+                decoding="async"
+                width="450"
+                height="450"
+                src="/profile.png"
+                className="attachment-full size-full wp-image-1231"
+                alt="about-us-img"
+                sizes="(max-width: 450px) 100vw, 450px"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  position: "relative",
+                  zIndex: 1,
+                }}
+              />
+            </div>
+
+            {/* Quick Stats Cards Below Image */}
             <div
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                width: "90%",
-                height: "90%",
-                background:
-                  "linear-gradient(135deg, rgba(111, 243, 181, 0.2) 0%, rgba(240, 255, 108, 0.2) 100%)",
-                filter: "blur(40px)",
-                borderRadius: "50%",
-                zIndex: -1,
-                animation: "pulse 3s ease-in-out infinite",
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                gap: "15px",
+                marginTop: "10px",
               }}
-            />
-            <Image
-              loading="lazy"
-              decoding="async"
-              width="400"
-              height="400"
-              src="/profile.png"
-              className="attachment-full size-full wp-image-1231"
-              alt="about-us-img"
-              sizes="(max-width: 400px) 100vw, 400px"
+            >
+              <div
+                style={{
+                  background:
+                    "linear-gradient(135deg, rgba(111, 243, 181, 0.1) 0%, rgba(240, 255, 108, 0.1) 100%)",
+                  backdropFilter: "blur(10px)",
+                  WebkitBackdropFilter: "blur(10px)",
+                  border: "1px solid rgba(111, 243, 181, 0.2)",
+                  borderRadius: "16px",
+                  padding: "20px 15px",
+                  textAlign: "center",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: "700",
+                    background:
+                      "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    marginBottom: "5px",
+                  }}
+                >
+                  50+
+                </div>
+                <div style={{ fontSize: "13px", opacity: 0.8 }}>Projects</div>
+              </div>
+
+              <div
+                style={{
+                  background:
+                    "linear-gradient(135deg, rgba(111, 243, 181, 0.1) 0%, rgba(240, 255, 108, 0.1) 100%)",
+                  backdropFilter: "blur(10px)",
+                  WebkitBackdropFilter: "blur(10px)",
+                  border: "1px solid rgba(111, 243, 181, 0.2)",
+                  borderRadius: "16px",
+                  padding: "20px 15px",
+                  textAlign: "center",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: "700",
+                    background:
+                      "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    marginBottom: "5px",
+                  }}
+                >
+                  15+
+                </div>
+                <div style={{ fontSize: "13px", opacity: 0.8 }}>Clients</div>
+              </div>
+            </div>
+
+            {/* Tech Badges */}
+            <div
               style={{
-                maxWidth: "100%",
-                height: "auto",
-                position: "relative",
-                zIndex: 1,
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "10px",
+                justifyContent: "center",
               }}
-            />
+            >
+              {["React Native", "Flutter", "Next.js", "Node.js"].map((tech) => (
+                <span
+                  key={tech}
+                  style={{
+                    background: "rgba(111, 243, 181, 0.1)",
+                    border: "1px solid rgba(111, 243, 181, 0.3)",
+                    padding: "6px 14px",
+                    borderRadius: "20px",
+                    fontSize: "12px",
+                    fontWeight: "500",
+                    color: "#6FF3B5",
+                  }}
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
           <div
             className="elementor-element elementor-element-0899128 elementor-widget__width-initial elementor-absolute experience-counter-box elementor-widget elementor-widget-counter"
