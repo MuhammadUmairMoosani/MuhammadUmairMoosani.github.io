@@ -20,41 +20,123 @@ export const Hello = () => {
             data-element_type="container"
           >
             <div
-              className="elementor-element elementor-element-ad88893 section-title at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading"
-              data-id="ad88893"
-              data-element_type="widget"
-              data-settings='{"_animation":"fadeInUp","ekit_we_effect_on":"none"}'
-              data-widget_type="heading.default"
+              className="elementor-element elementor-element-27d386f e-con-full section-heading e-flex e-con e-child"
+              data-id="27d386f"
+              data-element_type="container"
             >
-              <h2 className="elementor-heading-title elementor-size-default">
-                Your Vision, My Engineering Expertise
-              </h2>
-            </div>
-            <div
-              className="elementor-element elementor-element-ac22246 at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading"
-              data-id="ac22246"
-              data-element_type="widget"
-              data-settings='{"_animation":"fadeInUp","_animation_delay":100,"ekit_we_effect_on":"none"}'
-              data-widget_type="heading.default"
-            >
-              <h1 className="elementor-heading-title elementor-size-default">
-                <span>I&apos;m Muhammad Umair Moosani,</span> Software Engineer
-                Crafting Reliable Solutions
-              </h1>
-            </div>
-            <div
-              className="elementor-element elementor-element-4ae798e  elementor-widget elementor-widget-text-editor"
-              data-id="4ae798e"
-              data-element_type="widget"
-              data-settings='{"_animation":"fadeInUp","_animation_delay":200,"ekit_we_effect_on":"none"}'
-              data-widget_type="text-editor.default"
-            >
-              <p>
-                Hi, I’m Umair, a passionate Software Engineer. I specialize in
-                building robust, scalable applications that prioritize both
-                performance and user experience, with a focus on creating
-                seamless digital solutions.
-              </p>
+              <div
+                className="elementor-element elementor-element-0262ab9 elementor-widget elementor-widget-text-editor"
+                data-id="0262ab9"
+                data-element_type="widget"
+                data-settings='{"ekit_we_effect_on":"none"}'
+                data-widget_type="text-editor.default"
+              >
+                <p>
+                  Elevate your business with innovative, scalable, and
+                  high-performance digital solutions.
+                  <strong>
+                    <a href="#my-specialization">
+                      &nbsp;Let’s turn your vision into reality today!
+                    </a>
+                  </strong>
+                </p>
+              </div>
+              <div
+                className="elementor-element elementor-element-cab2ac0 at-heading-animation at-animation-heading-none  elementor-widget elementor-widget-heading"
+                data-id="cab2ac0"
+                data-element_type="widget"
+                data-settings='{"_animation":"fadeInUp","_animation_delay":100,"ekit_we_effect_on":"none"}'
+                data-widget_type="heading.default"
+              >
+                <h2 className="elementor-heading-title elementor-size-default">
+                  <span>I&apos;m Muhammad Umair Moosani</span>
+                </h2>
+              </div>
+              <div
+                className="elementor-element elementor-element-88ae754 elementor-widget elementor-widget-text-editor"
+                data-id="88ae754"
+                data-element_type="widget"
+                data-settings='{"_animation":"fadeInUp","_animation_delay":300,"ekit_we_effect_on":"none"}'
+                data-widget_type="text-editor.default"
+              >
+                <p id="about-me-description">
+                  A{" "}
+                  <strong>
+                    <a href="#about">Senior Software Engineer</a>
+                  </strong>{" "}
+                  with
+                  <strong>
+                    {" "}
+                    <a href="#about">7+ years of experience</a>{" "}
+                  </strong>{" "}
+                  building scalable mobile and web applications using{" "}
+                  <strong>React Native, Flutter, React.js, Next.js</strong>, and
+                  the <strong>MERN stack</strong>.
+                </p>
+                <p>
+                  I've delivered impactful solutions in industries like
+                  <strong>
+                    {" "}
+                    healthcare, finance, transportation, food delivery,
+                  </strong>{" "}
+                  and
+                  <strong> e-commerce</strong>. My expertise includes
+                  <strong> JavaScript, TypeScript, Dart, Node.js,</strong> and
+                  state management libraries like
+                  <strong> Redux</strong>.
+                </p>
+                <p>
+                  I hold a{" "}
+                  <strong>Bachelor's degree in Computer Science</strong> from
+                  Virtual University and certifications in{" "}
+                  <strong>React</strong> and{" "}
+                  <strong>Frontend Development</strong> from Udacity.
+                </p>
+                <div
+                  className="elementor-element elementor-element-e62a178 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
+                  data-id="e62a178"
+                  data-element_type="widget"
+                  data-settings='{"_animation":"fadeInUp","_animation_delay":200,"ekit_we_effect_on":"none"}'
+                  data-widget_type="heading.default"
+                >
+                  <h2 className="elementor-heading-title elementor-size-default">
+                    Core Tech Stack
+                  </h2>
+                </div>
+                <ul>
+                  <li>
+                    <strong>Frontend:</strong> React Native, Flutter, React.js,
+                    Next.js, Redux, Tailwind CSS, Ant Design, Material UI
+                  </li>
+                  <li>
+                    <strong>Backend:</strong> Node.js, Express.js, NestJS,
+                    MongoDB, GraphQL, Apollo, Firebase
+                  </li>
+                  <li>
+                    <strong>Testing:</strong> Jest, Cypress, TDD, Unit Testing,
+                    Integration Testing
+                  </li>
+                  <li>
+                    <strong>DevOps & Tools:</strong> GitHub Actions, Docker,
+                    CI/CD Pipelines, AWS, Azure, Firebase Hosting
+                  </li>
+                  <li>
+                    <strong>Mobile:</strong> React Native, Flutter, Dart,
+                    Android Studio, Xcode, Apple HealthKit, Google Health
+                    Connect
+                  </li>
+                  <li>
+                    <strong>Practices:</strong> Agile (Scrum), Clean
+                    Architecture, HIPAA Compliance, Performance Optimization
+                  </li>
+                </ul>
+
+                <p style={{ marginTop: "20px" }}>
+                  I thrive in fast-paced, collaborative environments and am
+                  always eager to take on new challenges. Let’s connect and
+                  build something meaningful together.
+                </p>
+              </div>
             </div>
           </div>
           <div
