@@ -313,7 +313,7 @@ export const EducationAndWork = () => {
                                                 <a href="https://digitalauxilius.com/" target="_blank" rel="noopener noreferrer"><span>Digital Auxilius</span></a>
                                             </h3>
                                             <p className="elementor-icon-box-description">
-                                                Senior React Native Mobile App Engineer
+                                                Senior Software Engineer (React Native & Flutter)
                                             </p>
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@ export const EducationAndWork = () => {
                                     data-widget_type="heading.default"
                                 >
                                     <h4 className="elementor-heading-title elementor-size-default">
-                                        2024 - Present
+                                        May 2024 - Present
                                     </h4>
                                 </div>
                             </div>
@@ -363,7 +363,7 @@ export const EducationAndWork = () => {
                                     data-widget_type="heading.default"
                                 >
                                     <h4 className="elementor-heading-title elementor-size-default">
-                                        2021 - 2024
+                                        Oct 2021 - May 2024
                                     </h4>
                                 </div>
                             </div>
@@ -400,7 +400,7 @@ export const EducationAndWork = () => {
                                     data-widget_type="heading.default"
                                 >
                                     <h4 className="elementor-heading-title elementor-size-default">
-                                        2019 - 2021
+                                        Feb 2019 - Oct 2021
                                     </h4>
                                 </div>
                             </div>
@@ -437,7 +437,7 @@ export const EducationAndWork = () => {
                                     data-widget_type="heading.default"
                                 >
                                     <h4 className="elementor-heading-title elementor-size-default">
-                                        2018 - 2019
+                                        Mar 2018 - Feb 2019
                                     </h4>
                                 </div>
                             </div>

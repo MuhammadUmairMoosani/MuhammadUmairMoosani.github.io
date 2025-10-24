@@ -82,19 +82,19 @@ export const AboutMe = () => {
               <p id="about-me-description">
                 A <strong><a href="#about">Senior Software Engineer</a></strong> with
                 <strong> <a href="#about">7+ years of experience</a> </strong> building scalable mobile and web applications
-                using <strong>React Native, React.js, Next.js</strong>, and the <strong>MERN stack</strong>.
+                using <strong>React Native, Flutter, React.js, Next.js</strong>, and the <strong>MERN stack</strong>.
               </p>
               <p>
-                I’ve delivered impactful solutions in industries like
+                I've delivered impactful solutions in industries like
                 <strong> healthcare, finance, transportation, food delivery,</strong> and
                 <strong> e-commerce</strong>. My expertise includes
-                <strong> JavaScript, TypeScript, Node.js,</strong> and state management libraries like
+                <strong> JavaScript, TypeScript, Dart, Node.js,</strong> and state management libraries like
                 <strong> Redux</strong>.
               </p>
               <p>
-                I hold a <strong>Bachelor’s degree in Computer Science</strong> from Virtual University
+                I hold a <strong>Bachelor's degree in Computer Science</strong> from Virtual University
                 and certifications in <strong>React</strong> and <strong>Frontend Development</strong> from
-                Udacity and Codecademy.
+                Udacity.
               </p>
               <div
                 className="elementor-element elementor-element-e62a178 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
@@ -108,10 +108,12 @@ export const AboutMe = () => {
                 </h2>
               </div>
               <ul>
-                <li><strong>Frontend:</strong> React Native, React.js, Next.js, Redux, Ant Design, Material UI</li>
-                <li><strong>Backend:</strong> Node.js, Express.js, MongoDB, GraphQL, Apollo</li>
-                <li><strong>Practices:</strong> TDD, Agile, Clean Architecture</li>
-                <li><strong>Tools:</strong> GitHub, Cypress, Jest, REST APIs</li>
+                <li><strong>Frontend:</strong> React Native, Flutter, React.js, Next.js, Redux, Tailwind CSS, Ant Design, Material UI</li>
+                <li><strong>Backend:</strong> Node.js, Express.js, NestJS, MongoDB, GraphQL, Apollo, Firebase</li>
+                <li><strong>Testing:</strong> Jest, Cypress, TDD, Unit Testing, Integration Testing</li>
+                <li><strong>DevOps & Tools:</strong> GitHub Actions, Docker, CI/CD Pipelines, AWS, Azure, Firebase Hosting</li>
+                <li><strong>Mobile:</strong> React Native, Flutter, Dart, Android Studio, Xcode, Apple HealthKit, Google Health Connect</li>
+                <li><strong>Practices:</strong> Agile (Scrum), Clean Architecture, HIPAA Compliance, Performance Optimization</li>
               </ul>
 
               <p style={{ marginTop: '20px' }}>
