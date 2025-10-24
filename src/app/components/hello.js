@@ -200,16 +200,18 @@ export const Hello = () => {
             data-element_type="widget"
             data-settings='{"ekit_we_effect_on":"none"}'
             data-widget_type="image.default"
+            style={{ maxWidth: "450px" }}
           >
             <Image
               loading="lazy"
               decoding="async"
-              width="534"
-              height="534"
+              width="400"
+              height="400"
               src="/profile.png"
               className="attachment-full size-full wp-image-1231"
               alt="about-us-img"
-              sizes="(max-width: 534px) 100vw, 534px"
+              sizes="(max-width: 400px) 100vw, 400px"
+              style={{ maxWidth: "100%", height: "auto" }}
             />
           </div>
           <div
