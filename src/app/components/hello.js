@@ -49,7 +49,7 @@ export const Hello = () => {
           zIndex: 1,
           display: "flex",
           alignItems: "flex-start",
-          gap: "60px",
+          gap: "40px",
           justifyContent: "space-between",
         }}
       >
@@ -76,11 +76,11 @@ export const Hello = () => {
                 data-settings='{"ekit_we_effect_on":"none"}'
                 data-widget_type="text-editor.default"
                 style={{
-                  marginBottom: "15px",
+                  marginBottom: "10px",
                   opacity: 0.9,
                 }}
               >
-                <p style={{ fontSize: "16px", lineHeight: "1.6" }}>
+                <p style={{ fontSize: "14px", lineHeight: "1.5" }}>
                   Elevate your business with innovative, scalable, and
                   high-performance digital solutions.
                   <strong>
@@ -106,14 +106,14 @@ export const Hello = () => {
                 data-element_type="widget"
                 data-settings='{"_animation":"fadeInUp","_animation_delay":100,"ekit_we_effect_on":"none"}'
                 data-widget_type="heading.default"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "15px" }}
               >
                 <h2 className="elementor-heading-title elementor-size-default">
                   <span
                     style={{
-                      fontSize: "clamp(2rem, 5vw, 3.5rem)",
+                      fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
                       fontWeight: "700",
-                      lineHeight: "1.2",
+                      lineHeight: "1.1",
                       letterSpacing: "-0.02em",
                     }}
                   >
@@ -139,7 +139,14 @@ export const Hello = () => {
                 data-settings='{"_animation":"fadeInUp","_animation_delay":300,"ekit_we_effect_on":"none"}'
                 data-widget_type="text-editor.default"
               >
-                <p id="about-me-description">
+                <p
+                  id="about-me-description"
+                  style={{
+                    marginBottom: "10px",
+                    fontSize: "15px",
+                    lineHeight: "1.6",
+                  }}
+                >
                   A{" "}
                   <strong>
                     <a href="#about">Senior Software Engineer</a>
@@ -153,7 +160,13 @@ export const Hello = () => {
                   <strong>React Native, Flutter, React.js, Next.js</strong>, and
                   the <strong>MERN stack</strong>.
                 </p>
-                <p>
+                <p
+                  style={{
+                    marginBottom: "10px",
+                    fontSize: "14px",
+                    lineHeight: "1.5",
+                  }}
+                >
                   I&apos;ve delivered impactful solutions in industries like
                   <strong>
                     {" "}
@@ -165,25 +178,18 @@ export const Hello = () => {
                   state management libraries like
                   <strong> Redux</strong>.
                 </p>
-                <p>
-                  I hold a{" "}
-                  <strong>Bachelor's degree in Computer Science</strong> from
-                  Virtual University and certifications in{" "}
-                  <strong>React</strong> and{" "}
-                  <strong>Frontend Development</strong> from Udacity.
-                </p>
                 <div
                   className="elementor-element elementor-element-e62a178 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
                   data-id="e62a178"
                   data-element_type="widget"
                   data-settings='{"_animation":"fadeInUp","_animation_delay":200,"ekit_we_effect_on":"none"}'
                   data-widget_type="heading.default"
-                  style={{ marginTop: "30px", marginBottom: "15px" }}
+                  style={{ marginTop: "20px", marginBottom: "12px" }}
                 >
                   <h2
                     className="elementor-heading-title elementor-size-default"
                     style={{
-                      fontSize: "clamp(1.5rem, 3vw, 2rem)",
+                      fontSize: "clamp(1.3rem, 2.5vw, 1.6rem)",
                       fontWeight: "600",
                       position: "relative",
                       display: "inline-block",
@@ -207,16 +213,17 @@ export const Hello = () => {
                 <ul
                   style={{
                     display: "grid",
-                    gap: "12px",
+                    gap: "8px",
                     listStyle: "none",
                     padding: 0,
+                    fontSize: "13px",
                   }}
                 >
                   <li
                     style={{
                       background: "rgba(111, 243, 181, 0.05)",
-                      padding: "10px 15px",
-                      borderRadius: "8px",
+                      padding: "8px 12px",
+                      borderRadius: "6px",
                       borderLeft: "3px solid #6FF3B5",
                       transition: "all 0.3s ease",
                     }}
@@ -228,8 +235,8 @@ export const Hello = () => {
                   <li
                     style={{
                       background: "rgba(111, 243, 181, 0.05)",
-                      padding: "10px 15px",
-                      borderRadius: "8px",
+                      padding: "8px 12px",
+                      borderRadius: "6px",
                       borderLeft: "3px solid #6FF3B5",
                       transition: "all 0.3s ease",
                     }}
@@ -241,8 +248,8 @@ export const Hello = () => {
                   <li
                     style={{
                       background: "rgba(111, 243, 181, 0.05)",
-                      padding: "10px 15px",
-                      borderRadius: "8px",
+                      padding: "8px 12px",
+                      borderRadius: "6px",
                       borderLeft: "3px solid #6FF3B5",
                       transition: "all 0.3s ease",
                     }}
@@ -253,8 +260,8 @@ export const Hello = () => {
                   <li
                     style={{
                       background: "rgba(111, 243, 181, 0.05)",
-                      padding: "10px 15px",
-                      borderRadius: "8px",
+                      padding: "8px 12px",
+                      borderRadius: "6px",
                       borderLeft: "3px solid #6FF3B5",
                       transition: "all 0.3s ease",
                     }}
@@ -268,8 +275,8 @@ export const Hello = () => {
                   <li
                     style={{
                       background: "rgba(111, 243, 181, 0.05)",
-                      padding: "10px 15px",
-                      borderRadius: "8px",
+                      padding: "8px 12px",
+                      borderRadius: "6px",
                       borderLeft: "3px solid #6FF3B5",
                       transition: "all 0.3s ease",
                     }}
@@ -278,22 +285,15 @@ export const Hello = () => {
                     Native, Flutter, Dart, Android Studio, Xcode, Apple
                     HealthKit, Google Health Connect
                   </li>
-                  <li
-                    style={{
-                      background: "rgba(111, 243, 181, 0.05)",
-                      padding: "10px 15px",
-                      borderRadius: "8px",
-                      borderLeft: "3px solid #6FF3B5",
-                      transition: "all 0.3s ease",
-                    }}
-                  >
-                    <strong style={{ color: "#6FF3B5" }}>Practices:</strong>{" "}
-                    Agile (Scrum), Clean Architecture, HIPAA Compliance,
-                    Performance Optimization
-                  </li>
                 </ul>
 
-                <p style={{ marginTop: "20px" }}>
+                <p
+                  style={{
+                    marginTop: "12px",
+                    fontSize: "13px",
+                    lineHeight: "1.5",
+                  }}
+                >
                   I thrive in fast-paced, collaborative environments and am
                   always eager to take on new challenges. Let&apos;s connect and
                   build something meaningful together.
@@ -308,9 +308,9 @@ export const Hello = () => {
             data-settings='{"animation":"fadeInUp","animation_delay":300}'
             style={{
               display: "flex",
-              gap: "15px",
+              gap: "12px",
               flexWrap: "wrap",
-              marginTop: "25px",
+              marginTop: "15px",
             }}
           >
             <div
@@ -326,11 +326,11 @@ export const Hello = () => {
                 style={{
                   background:
                     "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
-                  padding: "14px 32px",
+                  padding: "12px 28px",
                   borderRadius: "30px",
                   color: "#0A2E2A",
                   fontWeight: "600",
-                  fontSize: "16px",
+                  fontSize: "14px",
                   textDecoration: "none",
                   display: "inline-flex",
                   alignItems: "center",
@@ -380,11 +380,11 @@ export const Hello = () => {
                 rel="noopener noreferrer"
                 style={{
                   background: "transparent",
-                  padding: "14px 32px",
+                  padding: "12px 28px",
                   borderRadius: "30px",
                   color: "#6FF3B5",
                   fontWeight: "600",
-                  fontSize: "16px",
+                  fontSize: "14px",
                   textDecoration: "none",
                   display: "inline-flex",
                   alignItems: "center",
@@ -454,13 +454,13 @@ export const Hello = () => {
           data-settings='{"background_background":"classic"}'
           style={{
             flex: "0 0 auto",
-            minWidth: "500px",
+            minWidth: "380px",
+            maxWidth: "400px",
             position: "sticky",
             top: "20px",
             alignSelf: "flex-start",
             marginLeft: "auto",
-            paddingLeft: "60px",
-            paddingRight: "20px",
+            paddingLeft: "20px",
           }}
         >
           <div
@@ -474,7 +474,7 @@ export const Hello = () => {
               position: "relative",
               display: "flex",
               flexDirection: "column",
-              gap: "30px",
+              gap: "20px",
             }}
           >
             <div style={{ position: "relative" }}>
@@ -498,12 +498,12 @@ export const Hello = () => {
               <Image
                 loading="lazy"
                 decoding="async"
-                width="450"
-                height="450"
+                width="350"
+                height="350"
                 src="/profile.png"
                 className="attachment-full size-full wp-image-1231"
                 alt="about-us-img"
-                sizes="(max-width: 450px) 100vw, 450px"
+                sizes="(max-width: 350px) 100vw, 350px"
                 style={{
                   maxWidth: "100%",
                   height: "auto",
@@ -518,8 +518,8 @@ export const Hello = () => {
               style={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
-                gap: "15px",
-                marginTop: "10px",
+                gap: "10px",
+                marginTop: "5px",
               }}
             >
               <div
@@ -529,25 +529,25 @@ export const Hello = () => {
                   backdropFilter: "blur(10px)",
                   WebkitBackdropFilter: "blur(10px)",
                   border: "1px solid rgba(111, 243, 181, 0.2)",
-                  borderRadius: "16px",
-                  padding: "20px 15px",
+                  borderRadius: "12px",
+                  padding: "12px 10px",
                   textAlign: "center",
                 }}
               >
                 <div
                   style={{
-                    fontSize: "2rem",
+                    fontSize: "1.5rem",
                     fontWeight: "700",
                     background:
                       "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
-                    marginBottom: "5px",
+                    marginBottom: "3px",
                   }}
                 >
-                  50+
+                  20+
                 </div>
-                <div style={{ fontSize: "13px", opacity: 0.8 }}>Projects</div>
+                <div style={{ fontSize: "11px", opacity: 0.8 }}>Projects</div>
               </div>
 
               <div
@@ -557,25 +557,25 @@ export const Hello = () => {
                   backdropFilter: "blur(10px)",
                   WebkitBackdropFilter: "blur(10px)",
                   border: "1px solid rgba(111, 243, 181, 0.2)",
-                  borderRadius: "16px",
-                  padding: "20px 15px",
+                  borderRadius: "12px",
+                  padding: "12px 10px",
                   textAlign: "center",
                 }}
               >
                 <div
                   style={{
-                    fontSize: "2rem",
+                    fontSize: "1.5rem",
                     fontWeight: "700",
                     background:
                       "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
-                    marginBottom: "5px",
+                    marginBottom: "3px",
                   }}
                 >
                   15+
                 </div>
-                <div style={{ fontSize: "13px", opacity: 0.8 }}>Clients</div>
+                <div style={{ fontSize: "11px", opacity: 0.8 }}>Clients</div>
               </div>
             </div>
 
@@ -584,7 +584,7 @@ export const Hello = () => {
               style={{
                 display: "flex",
                 flexWrap: "wrap",
-                gap: "10px",
+                gap: "8px",
                 justifyContent: "center",
               }}
             >
@@ -594,9 +594,9 @@ export const Hello = () => {
                   style={{
                     background: "rgba(111, 243, 181, 0.1)",
                     border: "1px solid rgba(111, 243, 181, 0.3)",
-                    padding: "6px 14px",
-                    borderRadius: "20px",
-                    fontSize: "12px",
+                    padding: "5px 12px",
+                    borderRadius: "16px",
+                    fontSize: "11px",
                     fontWeight: "500",
                     color: "#6FF3B5",
                   }}
@@ -618,8 +618,8 @@ export const Hello = () => {
               backdropFilter: "blur(10px)",
               WebkitBackdropFilter: "blur(10px)",
               border: "1px solid rgba(111, 243, 181, 0.2)",
-              borderRadius: "20px",
-              padding: "20px 30px",
+              borderRadius: "16px",
+              padding: "15px 25px",
               boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1)",
             }}
           >
@@ -627,10 +627,11 @@ export const Hello = () => {
               <div
                 className="elementor-counter-title"
                 style={{
-                  fontSize: "14px",
+                  fontSize: "12px",
                   fontWeight: "500",
-                  marginBottom: "5px",
+                  marginBottom: "3px",
                   opacity: 0.9,
+                  color:'white'
                 }}
               >
                 Years Experience
@@ -643,7 +644,7 @@ export const Hello = () => {
                   data-from-value="0"
                   data-delimiter=","
                   style={{
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                     fontWeight: "700",
                     background:
                       "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
@@ -656,7 +657,7 @@ export const Hello = () => {
                 <span
                   className="elementor-counter-number-suffix"
                   style={{
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                     fontWeight: "700",
                     background:
                       "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",

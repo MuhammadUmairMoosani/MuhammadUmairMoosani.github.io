@@ -1,6 +1,7 @@
 /* Custom Animations */
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.6;
     transform: translate(-50%, -50%) scale(1);
   }
@@ -95691,7 +95692,7 @@ h1.entry-title {
   padding: 20px 20px 20px 20px;
   --container-widget-width: 200px;
   --container-widget-flex-grow: 0;
-  top: 70%;
+  top: 66%;
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -109386,17 +109387,29 @@ video.wp-video-shortcode {
   padding: 5px 15px;
 }
 
+
+
+/* Custom Hero Section Styles */
+.elementor-element-52d5136.e-con-boxed > .e-con-inner {
+  max-width: 100% !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  padding-top: 170px !important;
+}
+
 /* Custom Hero Section Responsive Styles */
 @media only screen and (max-width: 1024px) {
   .elementor-element-52d5136 .e-con-inner {
     flex-direction: column !important;
     align-items: center !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
-  
+
   .elementor-element-52d5136 .elementor-element-cff8374 {
     order: 2;
   }
-  
+
   .elementor-element-52d5136 .elementor-element-2b17256 {
     order: 1;
     position: relative !important;
@@ -109406,7 +109419,14 @@ video.wp-video-shortcode {
 }
 
 @media only screen and (max-width: 767px) {
+  .e-con-boxed > .e-con-inner {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
   .elementor-element-52d5136 .e-con-inner {
     gap: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
