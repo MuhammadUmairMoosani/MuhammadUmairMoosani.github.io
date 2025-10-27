@@ -375,7 +375,8 @@ export const Hello = () => {
               data-widget_type="button.default"
             >
               <a
-                href="https://drive.google.com/uc?export=download&id=1C6ffTvn1J05AuXLT3s4DyRuVmwU4tuOx"
+                href="/muhammadumairmoosani.pdf"
+                download
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -631,7 +632,11 @@ export const Hello = () => {
                   fontWeight: "500",
                   marginBottom: "3px",
                   opacity: 0.9,
-                  color:'white'
+                  color: "white",
+                  transition: "color 0.3s",
+                  "&:hover": {
+                    color: "#1E90FF", // Dodger Blue
+                  },
                 }}
               >
                 Years Experience
@@ -650,6 +655,11 @@ export const Hello = () => {
                       "linear-gradient(135deg, #6FF3B5 0%, #F0FF6C 100%)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
+                    transition: "color 0.3s",
+                    "&:hover": {
+                      WebkitTextFillColor: "none",
+                      color: "#1E90FF", // Dodger Blue
+                    },
                   }}
                 >
                   7
