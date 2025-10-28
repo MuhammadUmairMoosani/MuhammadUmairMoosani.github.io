@@ -93817,11 +93817,12 @@ body.admin-bar .main-header.ekit-sticky--effects {
   transition: all 0.4s ease-in-out;
 }
 
-.experience-counter-box:hover:before,
+/* Hover effect removed */
+/*.experience-counter-box:hover:before,
 .experience-counter-box .elementor-widget-container:hover:before,
 .customer-image-box:hover:before {
   top: 0;
-}
+}*/
 
 .experience-counter-box:has(:not(.elementor-widget-container)):before {
   display: block;
