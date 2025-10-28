@@ -589,7 +589,7 @@ export const Hello = () => {
                 justifyContent: "center",
               }}
             >
-              {["React Native", "Flutter", "Next.js", "Node.js"].map((tech) => (
+              {["React Native", "ReactJs", "Next.js", "Node.js"].map((tech) => (
                 <span
                   key={tech}
                   style={{
