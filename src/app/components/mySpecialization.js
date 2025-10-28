@@ -1,7 +1,7 @@
 export const MySpecialization = () => {
   return (
     <div
-      className="elementor-element elementor-element-d3f533b e-flex e-con-boxed e-con e-parent"
+      className="elementor-element elementor-element-d3f533b e-flex e-con-boxed e-con e-parent scroll-animate-left"
       data-id="d3f533b"
       data-element_type="container"
       id="my-specialization"

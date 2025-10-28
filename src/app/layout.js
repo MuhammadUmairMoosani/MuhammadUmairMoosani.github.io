@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import "./typography.css";
 import "./globals.css";
+import "./responsive.css";
+import "./animations.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,3 +28,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+RootLayout.propTypes = {
+  children: require("prop-types").node.isRequired,
+};

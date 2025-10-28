@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import { skills } from '../content';
+import Image from "next/image";
+import { skills } from "../content";
 
 export const LanguagesAndTools = () => {
   return (
     <div
-      className="elementor-element elementor-element-3953adf e-flex e-con-boxed e-con e-parent"
+      className="elementor-element elementor-element-3953adf e-flex e-con-boxed e-con e-parent scroll-animate-up"
       data-id="3953adf"
       data-element_type="container"
     >
